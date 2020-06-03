@@ -1,0 +1,120 @@
+body {
+	background-color: #fff5fe;
+}
+
+.entete {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.5em;
+	color: #9c62dc;
+	font-family: cursive;
+	margin-top: 30px;
+	margin-bottom: 60px
+}
+
+
+
+#appetit {
+	display: flex;
+	justify-content: space-between;
+	color: #c67412;
+}
+.titre1 {
+	color: #c67412;
+}
+
+#plaisir {
+	display: flex;
+	justify-content: space-between;
+	color: #a56799;
+}
+
+.titre2 {
+	color: #a56799;
+}
+
+#gourmandises {
+	display: flex;
+	
+	color: #6e4ccc;
+}
+
+.titre3 {
+	color: #6e4ccc;
+}
+
+h3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+h2 {
+	color: #ad6caa;
+}
+
+.prix {
+	font-weight: bold;
+	display: flex;
+	align-items: flex-end;
+	flex-direction: column;
+}
+
+.menu {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+header {
+	background-color: #1B5E20;
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer {
+	background-color: #1B5E20;
+	width: 100%;
+	height: 70px;
+	position: fixed;
+	bottom: 0px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px;
+	box-sizing: border-box;
+}
+
+footer a {
+	color: darkorange;
+	font-size: 1.5em;
+	text-decoration: none;
+}
+
+h1 {
+	color: darkorange;
+}
+
+a {
+	text-decoration: none;
+}
+
+main {
+	margin-bottom: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+section {
+	width: 600px;
+	margin-bottom: 40px;
+
+}
