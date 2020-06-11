@@ -171,25 +171,25 @@ section {
 
 
 .titre1::before {
-	content: url(OG.png);
+	content: url(image/OG.png);
 	
 }
 
 .titre1::after {
-	content: url(OD.png);
+	content: url(image/OD.png);
 }
 
 .titre2::before {
-	content: url(VG.png)
+	content: url(image/VG.png)
 }
 .titre2::after {
-	content: url(VD.png)
+	content: url(image/VD.png)
 }
 
 .titre3::before {
-	content: url(BG.png)
+	content: url(image/BG.png)
 }
 
 .titre3::after {
-	content: url(BD.png)
+	content: url(image/BD.png)
 }

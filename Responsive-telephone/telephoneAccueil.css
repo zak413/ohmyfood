@@ -1,0 +1,54 @@
+@media screen and (max-width: 767px) {
+	header {
+		width: 100%;
+		margin: auto;
+		box-sizing: border-box;
+	}
+	
+	body {
+		width: 100%;
+		margin: auto;
+	}
+	
+	main {
+		width: 100%;
+		box-sizing: border-box;
+		margin: auto;
+	}
+	
+	.p1 {
+		flex-direction: column;
+		width: 100%;
+		margin: auto;
+		height: 1000px;
+	}
+	
+	.p2 {
+		flex-direction: column;
+		width: 100%;
+		margin: auto;
+		height: 1000px;
+	}
+	
+	.menu {
+		width: 90%;
+	}
+	
+	section {
+		width: 100%;
+		margin: auto;
+	}
+	
+	footer a {
+		font-size: 16px;
+	}
+	
+	#pro span {
+		font-size: 25px;
+	}
+	
+	#pro {
+		width: 200px;
+		height: 35px;
+	}
+}

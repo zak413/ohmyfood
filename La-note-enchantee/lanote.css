@@ -176,9 +176,9 @@ main {
 } 
 
 h3::before {
-	content: url(G.png)
+	content: url(image/G.png)
 }
 
 h3::after {
-	content: url(D.png)
+	content: url(image/D.png)
 }

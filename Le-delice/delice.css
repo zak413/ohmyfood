@@ -149,22 +149,22 @@ p {
 }
 
 .titre1::before {
-	content: url(BG.png)
+	content: url(image/BG.png)
 }
 
 .titre1::after {
-	content: url(BD.png)
+	content: url(image/BD.png)
 }
 
 .titre2::before {
-	content: url(BCG.png)
+	content: url(image/BCG.png)
 }
 .titre2::after {
-	content: url(BCD.png)
+	content: url(image/BCD.png)
 }
 .titre3::before {
-	content: url(CG.png)
+	content: url(image/CG.png)
 }
 .titre3::after {
-	content: url(CD.png)
+	content: url(image/CD.png)
 }
