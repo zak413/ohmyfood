@@ -8,6 +8,7 @@
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	margin-bottom: 50px;
 	
 }
 
@@ -25,15 +26,28 @@ header h2 {
 
 
 
-h3 {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-family: cursive;
-	font-size: 25px;
+
+
+.soulignement {
+	position: relative;
+	height: 37px;
+
 }
-
-
+.soulignement::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background: #3e923a;
+  transform: scaleX(0);
+  transform-origin: 0 0;
+  transition: .3s ease-in-out;
+}
+.soulignement:hover::after {
+  transform: scaleX(1);
+}
 .prix {
 	font-weight: bold;
 }
@@ -50,15 +64,6 @@ h3 {
 	font-weight: 500;
 }
 
-header {
-	background-color: #579c87;
-	width: 100%;
-	height: 100px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
 footer {
 	background-color: #579c87;
 	width: 100%;
@@ -72,29 +77,17 @@ footer {
 	box-sizing: border-box;
 }
 
-footer a {
-	font-family: 'montserrat', sans-serif;
-	color: #fdcb46;
-	font-size: 1.5em;
-	text-decoration: none;
-}
+
 
 h3 {
 	font-family: 'Kalam', cursive;
 	display: flex;
-	width: 100%;
+	width: 200px;
 	justify-content: space-around;
+	font-size: 25px;
+	margin: 0;
 }
 
-h1 {
-	color: #fdcb46;
-	font-size: 4em;
-	font-family: 'montserrat', sans-serif;
-}
-
-a {
-	text-decoration: none;
-}
 
 main {
 	height: 1200px;
@@ -119,40 +112,9 @@ section {
 	width: 700px;
 	background-color: #fdfffd;
 	height: 900px;
-	box-sizing: border-box;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	box-shadow: 0px 0px 10px 2px #656565;
-
 }
 
-.contact {
-	animation: wiggle 2s infinite;
-}
-
-.mention {
-	animation: wiggle 2s infinite;
-}
-
-@keyframes wiggle { 
- 
-    0% { transform: rotate(0deg); } 
- 
-    80% { transform: rotate(0deg); } 
- 
-    85% { transform: rotate(5deg); } 
- 
-    95% { transform: rotate(-5deg); } 
- 
-    100% { transform: rotate(0deg); } 
- 
-}
-
-h3::before {
-	content: url(image/G.png)
-}
-h3::after {
-	content: url(image/D.png)
+.trait {
+	width: 200px;
+	height: 7px;
 }

@@ -15,14 +15,7 @@
 	width: 700px;
 	background-color: #edefef;
 	height: 900px;
-	box-shadow: 0px 0px 10px 2px #656565;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-
 }
-
 
 h3 {
 	display: flex;
@@ -31,7 +24,26 @@ h3 {
 	align-items: center;
 	font-family: 'Kalam', cursive;
 }
+.soulignement {
+	position: relative;
+	height: 28px;
 
+}
+.soulignement::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background: #0229dd;
+  transform: scaleX(0);
+  transform-origin: 0 0;
+  transition: .3s ease-in-out;
+}
+.soulignement:hover::after {
+  transform: scaleX(1);
+}
 .menu {
 	width: 500px;
 }
@@ -42,7 +54,6 @@ section {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-
 }
 .prix {
 	font-weight: bold;
@@ -53,15 +64,6 @@ section {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-}
-
-header {
-	background-color: #579c87;
-	width: 100%;
-	height: 100px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 }
 
 footer {
@@ -77,13 +79,6 @@ footer {
 	box-sizing: border-box;
 }
 
-footer a {
-	font-family: 'montserrat', sans-serif;
-	color: #fdcb46;
-	font-size: 1.5em;
-	text-decoration: none;
-}
-
 h2 {
 	display: flex;
 	font-size: 2.5em;
@@ -94,7 +89,6 @@ h2 {
 	background: linear-gradient(to right, #0229dd 0%, #0889fb 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
 }
 
 h1 {
@@ -115,7 +109,6 @@ main {
 	padding-bottom: 60px;
 }
 
-
 section {
 	width: 600px;
 	height: 200px;
@@ -126,45 +119,12 @@ p {
 	font-family: cursive;
 }
 
-.contact {
-	animation: wiggle 2s infinite;
+#traits {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
-
-.mention {
-	animation: wiggle 2s infinite;
-}
-
-@keyframes wiggle { 
- 
-    0% { transform: rotate(0deg); } 
- 
-    80% { transform: rotate(0deg); } 
- 
-    85% { transform: rotate(5deg); } 
- 
-    95% { transform: rotate(-5deg); } 
- 
-    100% { transform: rotate(0deg); } 
- 
-}
-
-.titre1::before {
-	content: url(image/BG.png)
-}
-
-.titre1::after {
-	content: url(image/BD.png)
-}
-
-.titre2::before {
-	content: url(image/BCG.png)
-}
-.titre2::after {
-	content: url(image/BCD.png)
-}
-.titre3::before {
-	content: url(image/CG.png)
-}
-.titre3::after {
-	content: url(image/CD.png)
+.trait {
+	width: 190px;
 }

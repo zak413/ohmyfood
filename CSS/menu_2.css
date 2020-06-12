@@ -3,15 +3,8 @@
 	width: 800px;
 	height: 1000px;
 	background-color: #fff5fe;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: center;
-	box-sizing: border-box;
-	box-shadow: 0px 0px 10px 2px #656565;
-
-
 }
+
 #page header {
 	background-color: #fff5fe;
 	display: flex;
@@ -38,9 +31,9 @@ main {
 	color: #c67412;
 	width: 600px;
 }
+
 .titre1 {
 	color: #c67412;
-	
 }
 
 
@@ -49,7 +42,6 @@ main {
 	flex-direction: column;
 	color: #a56799;
 	width: 600px;
-
 }
 
 .titre2 {
@@ -61,7 +53,6 @@ main {
 	flex-direction: column;
 	color: #6e4ccc;
 	width: 600px;
-
 }
 
 .titre3 {
@@ -73,10 +64,28 @@ h3 {
 	justify-content: space-around;
 	align-items: center;
 	width: 100%;
-	
-	
+	height: 30px;
 }
+.soulignement {
+	position: relative;
+	height: 25px;
 
+}
+.soulignement::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 2px;
+	background: #c07675;
+	transform: scaleX(0);
+    transform-origin: 0 0;
+    transition: .3s ease-in-out;
+}
+.soulignement:hover::after {
+  transform: scaleX(1);
+}
 main p {
 	display: flex;
 	justify-content: space-between;
@@ -96,15 +105,6 @@ h2 {
 	font-weight: bold;
 }
 
-header {
-	background-color: #579c87;
-	width: 100%;
-	height: 100px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
 footer {
 	background-color: #579c87;
 	width: 100%;
@@ -118,24 +118,6 @@ footer {
 	box-sizing: border-box;
 }
 
-footer a {
-	font-family: 'montserrat', sans-serif;
-	color: #fdcb46;
-	font-size: 1.5em;
-	text-decoration: none;
-}
-
-h1 {
-	color: #fdcb46;
-	font-size: 4em;
-	font-family: 'montserrat', sans-serif;
-}
-
-a {
-	text-decoration: none;
-}
-
-
 section {
 	width: 700px;
 	margin-bottom: 80px;
@@ -143,53 +125,9 @@ section {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-
 }
 
-.contact {
-	animation: wiggle 2s infinite;
-}
-
-.mention {
-	animation: wiggle 2s infinite;
-}
-
-@keyframes wiggle { 
- 
-    0% { transform: rotate(0deg); } 
- 
-    80% { transform: rotate(0deg); } 
- 
-    85% { transform: rotate(5deg); } 
- 
-    95% { transform: rotate(-5deg); } 
- 
-    100% { transform: rotate(0deg); } 
- 
-} 
-
-
-
-.titre1::before {
-	content: url(image/OG.png);
-	
-}
-
-.titre1::after {
-	content: url(image/OD.png);
-}
-
-.titre2::before {
-	content: url(image/VG.png)
-}
-.titre2::after {
-	content: url(image/VD.png)
-}
-
-.titre3::before {
-	content: url(image/BG.png)
-}
-
-.titre3::after {
-	content: url(image/BD.png)
+.trait {
+	width: 200px;
+	height: 8px;
 }

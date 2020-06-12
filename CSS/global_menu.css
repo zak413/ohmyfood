@@ -1,0 +1,63 @@
+header {
+	background-color: #579c87;
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer a {
+	font-family: 'montserrat', sans-serif;
+	color: #fdcb46;
+	font-size: 1.5em;
+	text-decoration: none;
+}
+
+h1 {
+	color: #fdcb46;
+	font-size: 4em;
+	font-family: 'montserrat', sans-serif;
+}
+
+#page {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	box-sizing: border-box;
+	box-shadow: 0px 0px 10px 2px #656565;
+}
+
+.contact {
+	animation: wiggle 2s infinite;
+}
+
+.mention {
+	animation: wiggle 2s infinite;
+}
+
+@keyframes wiggle { 
+ 
+    0% { transform: rotate(0deg); } 
+ 
+    80% { transform: rotate(0deg); } 
+ 
+    85% { transform: rotate(5deg); } 
+ 
+    95% { transform: rotate(-5deg); } 
+ 
+    100% { transform: rotate(0deg); } 
+ 
+} 
+
+#traits {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+a {
+	text-decoration: none;
+}
