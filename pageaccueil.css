@@ -116,13 +116,13 @@ menu-4 {
 
 #note h2 {
 	font-family: 'Devonshire', cursive;
-	font-size: 1.5em;
+	font-size: 2em;
 	margin: 0;
 }
 #note p {
 	font-family: 'Itim', cursive;
 	font-size: 2em;
-	margin: 10px;
+	margin: 2px;
 }
 .fa-music {
 	font-size: 30px;
@@ -199,6 +199,7 @@ menu-4 {
 #delice h2 {
 	font-family: 'Dancing Script', cursive;
 	font-size: 1.8em;
+	width: 230px;
 	margin: 0;
 	background: -webkit-gradient(linear, left top, right bottom, from(#0229dd), to(#0889fb));
     -webkit-background-clip: text;
@@ -208,7 +209,7 @@ menu-4 {
 #delice p {
 	font-family: 'Nanum Pen Script', cursive;
 	font-size: 3em;
-	margin: 10px;
+	margin: 2px;
 }
 
 #delice:hover {
@@ -243,7 +244,7 @@ menu-4 {
 #palette p {
 	font-family: 'Nanum Pen Script', cursive;
 	font-size: 3em;
-	margin: 10px;
+	margin: 0px;
 }
 
 #palette h2 {
