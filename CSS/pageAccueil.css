@@ -1,4 +1,6 @@
 
+/*===================================================================== Page ===========================================================*/ 
+
 header {
 	background-color: #579c87;
 	width: 100%;
@@ -7,267 +9,6 @@ header {
 	justify-content: center;
 	align-items: center;
 }
-
-a {
-	text-decoration: none;
-}
-
-
-h1 {
-	color: #fdcb46;
-	font-size: 4em;
-	font-family: 'montserrat', sans-serif;
-}
-
-
-.p1 {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	width: 800px;
-	height: 500px;
-}
-
-.p2 {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	width: 800px;
-	height: 500px;
-}
-
-
-
-
-section {
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	align-items: center;
-	box-sizing: border-box;
-}
-
-.menu a {
-	width: 100%;
-	height: 100%;
-	box-sizing: border-box;
-
-}
-
-.menu {
-	width: 300px;
-	height: 400px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	box-shadow: 0px 0px 8px 0.5px #cfcfcf;
-	box-sizing: border-box;
-
-}
-
-
-.menu-1 {
-	background-color: #fcdfdb;
-
-}
-.menu-2 {
-	background-color: #fff5fe;
-
-}
-
-.menu-3 {
-	background-color: #f9f9f9;
-
-}
-menu-4 {
-	background-color: #fdfffd;
-
-}
-
-#note {
-	width: 100%;
-	height: 100%;
-	box-sizing: border-box;
-	text-align: center;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	color: #3d1319;
-	cursor: pointer;
-	transform: scale(1);
-    transition-property: transform;
-    transition-duration: 500ms;
-}
-
-#note:hover {
-    transform: scale(1.15);
-	animation: opacit 500ms;
-	animation-fill-mode: forwards;
-	}
-
-@keyframes opacit {
-	from {opacity: 1;}
-	to {opacity: 0.8;}
-
-}
-
-
-
-#note h2 {
-	font-family: 'Devonshire', cursive;
-	font-size: 2em;
-	margin: 0;
-}
-#note p {
-	font-family: 'Itim', cursive;
-	font-size: 2em;
-	margin: 2px;
-}
-.fa-music {
-	font-size: 30px;
-	color: #f15d61;
-	background: -webkit-gradient(linear, left bottom, right bottom, from(#fe0d15), to(#fa7b4a));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-#chic {
-	width: 100%;
-	height: 100%;
-	box-sizing: border-box;
-	text-align: center;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	color: #c77412;
-	cursor: pointer;
-	transform: scale(1);
-    transition-property: transform;
-    transition-duration: 500ms;
-
-}
-
-#chic h2 {
-	font-family: 'Croissant one', serif;
-	font-size: 1.3em;
-	font-weight: 100;
-	margin: 0;
-	background: -webkit-gradient(linear, left top, right bottom, from(#dc8527), to(#915dfe));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-#chic p {
-	font-family: 'DM-Serif-text', serif;
-	font-size: 2em;
-	font-weight: 600;
-	margin: 10px;
-}
-
-#chic:hover {
-    transform: scale(1.15);
-	animation: opacit 500ms;
-	animation-fill-mode: forwards;
-	}
-
-@keyframes opacit {
-	from {opacity: 1;}
-	to {opacity: 0.8;}
-
-}
-
-
-
-#delice {
-	width: 100%;
-	height: 100%;
-	box-sizing: border-box;
-	text-align: center;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	color: #0887fb;
-	cursor: pointer;
-	transform: scale(1);
-    transition-property: transform;
-    transition-duration: 500ms;
-}
-
-#delice h2 {
-	font-family: 'Dancing Script', cursive;
-	font-size: 1.8em;
-	width: 230px;
-	margin: 0;
-	background: -webkit-gradient(linear, left top, right bottom, from(#0229dd), to(#0889fb));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-#delice p {
-	font-family: 'Nanum Pen Script', cursive;
-	font-size: 3em;
-	margin: 2px;
-}
-
-#delice:hover {
-    transform: scale(1.15);
-	animation: opacit 500ms;
-	animation-fill-mode: forwards;
-	}
-
-@keyframes opacit {
-	from {opacity: 1;}
-	to {opacity: 0.8;}
-
-}
-
-
-#palette {
-	width: 100%;
-	height: 100%;
-	box-sizing: border-box;
-	text-align: center;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	color: #72bf56;
-	cursor: pointer;
-	transform: scale(1);
-    transition-property: transform;
-    transition-duration: 500ms;
-}
-
-#palette p {
-	font-family: 'Nanum Pen Script', cursive;
-	font-size: 3em;
-	margin: 0px;
-}
-
-#palette h2 {
-	font-family: 'Kaushan Script', cursive;
-	font-weight: 100;
-	font-size: 1.8em;
-	margin: 0px;
-	background: -webkit-gradient(linear, left top, right bottom, from(#3e923a), to(#beff7f));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-#palette:hover {
-    transform: scale(1.15);
-	animation: opacit 500ms;
-	animation-fill-mode: forwards;
-	}
-
-@keyframes opacit {
-	from {opacity: 1;}
-	to {opacity: 0.8;}
-
-}
-
 
 footer {
 	background-color: #579c87;
@@ -348,4 +89,283 @@ content: '';
 .prochainement {
 	height: 200px;
 }
+
+a {
+	text-decoration: none;
+}
+
+/*================================================================== page/menu =========================================================*/
+h1 {
+	color: #fdcb46;
+	font-size: 4em;
+	font-family: 'montserrat', sans-serif;
+}
+
+
+.p1, .p2 {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 800px;
+	height: 500px;
+}
+
+section {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	box-sizing: border-box;
+}
+
+.menu a {
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+
+}
+
+.menu {
+	width: 300px;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0px 0px 8px 0.5px #cfcfcf;
+	box-sizing: border-box;
+
+}
+
+
+
+/*==================================================================== Fin css page ====================================================*/
+
+/*==================================================================== Menu-1 ==========================================================*/
+
+.menu-1 {
+	background-color: #fcdfdb;
+
+}
+
+#note {
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #3d1319;
+	cursor: pointer;
+	transform: scale(1);
+    transition-property: transform;
+    transition-duration: 500ms;
+}
+
+#note:hover {
+    transform: scale(1.15);
+	animation: opacit 500ms;
+	animation-fill-mode: forwards;
+	}
+
+@keyframes opacit {
+	from {opacity: 1;}
+	to {opacity: 0.8;}
+
+}
+
+
+
+#note h2 {
+	font-family: 'Devonshire', cursive;
+	font-size: 2em;
+	margin: 0;
+}
+#note p {
+	font-family: 'Itim', cursive;
+	font-size: 2em;
+	margin: 2px;
+}
+.fa-music {
+	font-size: 30px;
+	color: #f15d61;
+	background: -webkit-gradient(linear, left bottom, right bottom, from(#fe0d15), to(#fa7b4a));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+/*=================================================================== Fin css menu-1 ====================================================*/
+
+/*===================================================================== Menu-2 ==========================================================*/
+
+.menu-2 {
+	background-color: #fff5fe;
+
+}
+
+#chic {
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #c77412;
+	cursor: pointer;
+	transform: scale(1);
+    transition-property: transform;
+    transition-duration: 500ms;
+
+}
+
+#chic h2 {
+	font-family: 'Croissant one', serif;
+	font-size: 1.3em;
+	font-weight: 100;
+	margin: 0;
+	background: -webkit-gradient(linear, left top, right bottom, from(#dc8527), to(#915dfe));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#chic p {
+	font-family: 'DM-Serif-text', serif;
+	font-size: 2em;
+	font-weight: 600;
+	margin: 10px;
+}
+
+#chic:hover {
+    transform: scale(1.15);
+	animation: opacit 500ms;
+	animation-fill-mode: forwards;
+	}
+
+@keyframes opacit {
+	from {opacity: 1;}
+	to {opacity: 0.8;}
+
+}
+
+
+/*================================================================== Fin css menu-2 =====================================================*/
+
+
+/*==================================================================== Menu-3 ==========================================================*/
+
+.menu-3 {
+	background-color: #f9f9f9;
+
+}
+
+#delice {
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #0887fb;
+	cursor: pointer;
+	transform: scale(1);
+    transition-property: transform;
+    transition-duration: 500ms;
+}
+
+#delice h2 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 1.8em;
+	width: 230px;
+	margin: 0;
+	background: -webkit-gradient(linear, left top, right bottom, from(#0229dd), to(#0889fb));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#delice p {
+	font-family: 'Nanum Pen Script', cursive;
+	font-size: 3em;
+	margin: 2px;
+}
+
+#delice:hover {
+    transform: scale(1.15);
+	animation: opacit 500ms;
+	animation-fill-mode: forwards;
+	}
+
+@keyframes opacit {
+	from {opacity: 1;}
+	to {opacity: 0.8;}
+
+}
+
+
+/*================================================================== Fin css menu-3 =====================================================*/
+
+
+/*==================================================================== Menu-4 ==========================================================*/
+
+
+
+menu-4 {
+	background-color: #fdfffd;
+
+}
+
+
+#palette {
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #72bf56;
+	cursor: pointer;
+	transform: scale(1);
+    transition-property: transform;
+    transition-duration: 500ms;
+}
+
+#palette p {
+	font-family: 'Nanum Pen Script', cursive;
+	font-size: 3em;
+	margin: 0px;
+}
+
+#palette h2 {
+	font-family: 'Kaushan Script', cursive;
+	font-weight: 100;
+	font-size: 1.8em;
+	margin: 0px;
+	background: -webkit-gradient(linear, left top, right bottom, from(#3e923a), to(#beff7f));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#palette:hover {
+    transform: scale(1.15);
+	animation: opacit 500ms;
+	animation-fill-mode: forwards;
+	}
+
+@keyframes opacit {
+	from {opacity: 1;}
+	to {opacity: 0.8;}
+
+}
+
+/*================================================================== Fin css menu-4 =====================================================*/
+
 

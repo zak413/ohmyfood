@@ -6,8 +6,8 @@
 <head>
 	<title>La note enchantée</title>
 	<meta charset="utf-8" >
-	<link rel="stylesheet" type="text/css" href="/CSS/menu_1.css">
-	<link rel="stylesheet" type="text/css" href="/CSS/global_menu.css">
+	<link rel="stylesheet" type="text/css" href="/ohmyfood/CSS/menu_1.css">
+	<link rel="stylesheet" type="text/css" href="/ohmyfood/CSS/global_menu.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=DM+Serif+Text&family=Dancing+Script:wght@700&family=Devonshire&family=Itim&family=Kaushan+Script&family=Montserrat:wght@600&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
@@ -16,7 +16,8 @@
 	
 <body>
 	
-	<a href="/index.html">
+
+	<a href="/ohmyfood/index.html"><!-- le header est inclus dans un lien pour permettre de retourner à la page d'accueil -->
 	<header>
 		<h1>ohmyfood</h1>
 	</header>
@@ -24,22 +25,25 @@
 
 	<main>
 		<h1>La note enchantée</h1>
+		
 		<div id="page">
+			
 			<header>
 				<i class="fas fa-music"></i>
 				<h2> La note enchantée </h2>		
 			</header>
 
 			<section>
-				<div id="traits">
-					<span><img src="/images/menu1/G.png" class="trait"></span>
+
+				<div class="traits"><!-- Div pour mettre le titre et les traits en display flex -->
+					<span><img src="/ohmyfood/images/menu1/G.png" alt="trait" class="trait"></span>
 					<h3	><span class="soulignement">Prélude</span></h3>
-					<span><img src="/images/menu1/D.png" class="trait"></span>
+					<span><img src="/ohmyfood/images/menu1/D.png" alt="trait" class="trait"></span>
 				</div>
 				
 				
 					<div class="menu">
-						<p>Ravioles de foie gras accompagnés de leur crème à la truffe<span class="prix">98€</span></p>
+						<p>Ravioles de foie gras accompagnés de leur crème à la truffe<span class="prix">98€</span></p> <!-- Les span c'est pour pouvoir utiliser space between -->
 						<p>Caviar osciétre sur blini à la farine de blé noir<span class="prix">115€</span></p>
 						<p>Homard et espuma de potiron mariné aux zestes d'orange<span class="prix">89€</span></p>
 						<p>Foie gras de canard cuit entier, confiture de figue et pain toasté<span class="prix">105€</span></p>
@@ -47,10 +51,10 @@
 			</section>
 
 			<section>
-					<div id="traits">
-						<span><img src="/images/menu1/G.png" class="trait"></span>
+					<div class="traits">
+						<span><img src="/ohmyfood/images/menu1/G.png" alt="trait" class="trait"></span>
 						<h3><span class="soulignement">Point d'orgue</span></h3>
-						<span><img src="/images/menu1/D.png" class="trait"></span>
+						<span><img src="/ohmyfood/images/menu1/D.png" alt="trait" class="trait"></span>
 					</div>
 
 					<div class="menu">
@@ -62,10 +66,10 @@
 			</section>
 
 			<section>
-					<div id="traits">
-						<span><img src="/images/menu1/G.png" class="trait"></span>
+					<div class="traits">
+						<span><img src="/ohmyfood/images/menu1/G.png" alt="trait" class="trait"></span>
 						<h3><span class="soulignement">Mouvement final</span></h3>
-						<span><img src="/images/menu1/D.png" class="trait"></span>
+						<span><img src="/ohmyfood/images/menu1/D.png" alt="trait" class="trait"></span>
 					</div>
 					<div class="menu">
 						<p>Macaron noisette et chocolat, glace au caramel brun et sel de Guérande</p>
@@ -82,7 +86,7 @@
 	</main>
 	
 	<footer id="footerfix">
-		<a href="/mentionslegales.html" target="_blank" class="mention">Mentions légales</a>
+		<a href="/ohmyfood/Include/mentionslegales.html" target="_blank" class="mention">Mentions légales</a>
 		<a href="mailto:zakaria.ayat@gmail.com" class="contact">Contactez-nous</a>
 	</footer>
 		

@@ -3,14 +3,16 @@
 		width: 100%;
 		margin: auto;
 		box-sizing: border-box;
+		height: 80px;
 	}
 	
 	h1 {
-		font-size: 50px;
+		font-size: 55px;
 	}
 	
 	footer {
-		padding: 10px;
+		padding: 5px;
+		height: 50px;
 	}
 	
 	body {
