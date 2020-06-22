@@ -28,14 +28,12 @@ header h2 {
 }
 
 .menu {
-	width: 570px;
+	width: 590px;
+	box-sizing: border-box;
 }
-.menu p {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+
+li {
 	font-family: 'Kalam', cursive;
-	font-size: 18px;
 	font-weight: 500;
 }
 
@@ -57,8 +55,8 @@ h3 {
 	display: flex;
 	width: 200px;
 	justify-content: space-around;
-	font-size: 24px;
-	margin: 0;
+	font-size: 22px;
+	margin-bottom: 40px;
 }
 
 main {
@@ -71,19 +69,17 @@ main {
 
 section {
 	width: 700px;
-	height: 200px;
-	margin-bottom: 50px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
 
-
 #page {
 	width: 700px;
 	background-color: #fdfffd;
 	height: 900px;
+	padding-bottom: 40px;
 }
 
 .trait {
@@ -102,10 +98,11 @@ section {
 	.entete h2 {
 		font-size: 40px;
 		width: 100%;
+		margin: 0;
 	}
 	
 	#page {
-		height: 1200px;
+		height: 1000px;
 		width: 97%;
 		padding: 5px;
 		margin: auto;
@@ -115,7 +112,10 @@ section {
 	main {
 		height: 1250px;
 	}
-		
+	
+	h3 {
+		margin: 10px
+	}
 	
 	#page .entete {
 		margin-bottom: 0px;
@@ -124,8 +124,16 @@ section {
 	
 	section {
 		width: 100%;
+		margin: 0;
 	}
 	
+	li {
+		margin-bottom: 40px;
+	}
+	
+	main {
+		height: 1030px;
+	}
 }
 
 /*=========================================================== Fin responsive design ==================================================*/

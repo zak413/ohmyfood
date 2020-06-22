@@ -23,7 +23,7 @@ h3 {
 }
 
 .menu {
-	width: 500px;
+	width: 570px;
 }
 section {
 	width: 750px;
@@ -37,7 +37,7 @@ section {
 	font-weight: bold;
 }
 
-.menu p {
+li {
 	font-family: 'Kalam', cursive;
 }
 
@@ -67,10 +67,6 @@ section {
 	margin-bottom: 50px;
 }
 
-p {
-	font-family: cursive;
-}
-
 .trait {
 	width: 190px;
 }
@@ -90,8 +86,8 @@ p {
 	}
 				
 	main {
-		height: 1080px;
-		padding-bottom: 0;
+		height: 1000px;
+		padding-bottom: 40px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -99,7 +95,6 @@ p {
 	
 	#page {
 		height: 950px;
-		margin-top: -70px;
 		width: 97%;
 	}
 	
@@ -113,7 +108,10 @@ p {
 		width: 100%;
 		margin: 0;
 	}
-			
+	
+	li {
+		margin-bottom: 35px;
+	}
 		
 }
 
