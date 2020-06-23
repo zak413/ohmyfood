@@ -71,21 +71,30 @@ footer a {
  
 } 
 
-.dot {
-	width: 10px;
-}
+
 .dot:after {
-animation: dot steps(1,end) 1s infinite;
-content: '';
-}
-@keyframes dot {
-0%   { content: ''; }
-25%  { content: '.'; }
-50%  { content: '..'; }
-75%  { content: '...'; }
-100% { content: ''; }
+  content: '.';
+  animation: dots 2s infinite;
 }
 
+@keyframes dots {
+  0%, 20% {
+    color: rgba(0, 0, 0, 0);
+    text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0), 0.5em 0 0 rgba(0, 0, 0, 0);
+  }
+  40% {
+    color: #fdcb46;
+    text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0), 0.5em 0 0 rgba(0, 0, 0, 0);
+  }
+  60% {
+    color: #fdcb46;
+    text-shadow: 0.25em 0 0 #fdcb46, 0.5em 0 0 rgba(0, 0, 0, 0);
+  }
+  80%, 100% {
+    color: #fdcb46;
+    text-shadow: 0.25em 0 0 #fdcb46, 0.5em 0 0 #fdcb46 ;
+  }
+}
 .prochainement {
 	height: 200px;
 }
