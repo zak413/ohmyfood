@@ -263,6 +263,13 @@ section {
 
 }
 
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	
+	#chic h2 {
+		color: #b36f99;
+	}
+     
+}
 
 /*================================================================== Fin css menu-2 =====================================================*/
 

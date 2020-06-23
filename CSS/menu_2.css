@@ -70,8 +70,8 @@ h2 {
 	background: linear-gradient(to right, #db8528 0%,#8f5bfe 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
 }
+
 
 li {
 	font-size: 19px;
@@ -135,3 +135,14 @@ section {
 	
 }
 /*=========================================================== Fin responsive ==================================================*/
+
+/*======================================================== Adaptation couleur IE ===================================================*/
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	
+	h2 {
+		color: #b36f99;
+		background: none;
+	}
+     
+}
