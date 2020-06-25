@@ -103,11 +103,11 @@ section {
 	}
 			
 	main {
-		height: 1130px;
+		height: 1000px;
 	}
 	
 	#page {
-		height: 1050px;
+		height: 900px;
 		margin-top: -50px;
 		width: 97%;
 		box-sizing: border-box;
